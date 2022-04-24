@@ -74,19 +74,10 @@ body {
   color: #555;
 }
 
-.section-hero {
-  background-color: #fdf2e9;
-  padding: 9.2rem 0;
-}
+/********************************** /
+/* General resualbe */
 
-.hero {
-  max-width: 130rem;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 9.2rem;
-  align-items: center;
-}
+/**********************************   */
 
 .heading-primary {
   font-size: 5.2rem;
@@ -136,6 +127,89 @@ body {
 
 .margin-right-sm {
   margin-right: 1.4rem;
+}
+
+/******************   */
+
+/* Header section */
+
+/******************   */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+
+  /* to make the nav sticky */
+  height: 9.6rem;
+  padding: 0 2.3rem;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+/******************   */
+
+/* navigation section */
+
+/******************   */
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  color: #fff;
+  padding: 1.2rem 2.4rem;
+  background-color: #e67e22;
+  border-radius: 9px;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
+}
+
+/*******************   */
+
+/* hero section */
+
+/****************   */
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 4.8rem  0 9.2rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.2rem;
+  align-items: center;
 }
 
 .hero-description {
