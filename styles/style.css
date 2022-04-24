@@ -76,7 +76,8 @@ body {
 
 /********************************** /
 /* General resualbe */
-/***********************************/
+
+/**********************************   */
 
 .heading-primary {
   font-size: 5.2rem;
@@ -128,9 +129,11 @@ body {
   margin-right: 1.4rem;
 }
 
-/*******************/
+/******************   */
+
 /* Header section */
-/*******************/
+
+/******************   */
 
 .header {
   display: flex;
@@ -147,10 +150,11 @@ body {
   height: 2.2rem;
 }
 
+/******************   */
 
-/*******************/
 /* navigation section */
-/*******************/
+
+/******************   */
 
 .main-nav-list {
   list-style: none;
@@ -171,7 +175,7 @@ body {
 
 .main-nav-link:hover,
 .main-nav-link:active {
-   color: #cf711f;
+  color: #cf711f;
 }
 
 .main-nav-link.nav-cta:link,
@@ -187,9 +191,11 @@ body {
   background-color: #cf711f;
 }
 
-/********************/
+/*******************   */
+
 /* hero section */
-/*****************/
+
+/****************   */
 
 .section-hero {
   background-color: #fdf2e9;
